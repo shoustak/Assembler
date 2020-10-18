@@ -28,22 +28,23 @@ char string[80];
 int found2;
 int foundInum;
 int found4;
- int IC;
- int DC;
- int LINE;
- int missingLine;
+int IC;
+int DC;
+int LINE;
+int missingLine;
 bool ifNum ;
 int isString;
+
 typedef struct {
-int first_register;
-int second_register;
-int has_label;
-int operation;
-int hasGuide;
-char param1[100];
-char param2[100];
-int param1_miun;
-int param2_miun;
+	int first_register;
+	int second_register;
+	int has_label;
+	int operation;
+	int hasGuide;
+	char param1[100];
+	char param2[100];
+	int param1_miun;
+	int param2_miun;
 }preMila;
 
 typedef struct { 
@@ -59,13 +60,13 @@ typedef struct {
     }mila;
     
 /*=========================*/
-       typedef struct {
+typedef struct {
     char label[50];
 }Entry;
 
-   typedef struct {
+typedef struct {
     Entry entry;
-    struct EntryNode * next;
+struct EntryNode * next;
 }EntryNode;
 
 EntryNode * ehead ;

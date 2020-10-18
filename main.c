@@ -1,7 +1,4 @@
-/*authors:
-Hai Kedarya
-Roei shoustak
-*/
+
 #include "main.h"
 /* 
  * @description this is the main method 
